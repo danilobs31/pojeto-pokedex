@@ -36,7 +36,7 @@ const getPokemons = async (id) => {
 
 const createPokemonCard = (poke) => {
     const card = document.createElement('div')
-    card.classList.add("pokemon")
+    card.classList.add("Pokemon")
 
     const name = poke.name[0].toUpperCase() + poke.name.slice(1)
     const id = poke.id.toString().padStart(3, '0')
