@@ -1,7 +1,7 @@
 const pokeContainer = document.querySelector("#pokeContainer");
 //O document é um objeto do DOM que é apenas existente no browser
 
-const pokemonCount = 150
+const pokemonCount = 200
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
