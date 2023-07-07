@@ -37,6 +37,7 @@ h1 {
     margin: 10px;
     padding: 20px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .ImagemConteiner {
@@ -68,4 +69,8 @@ h1 {
     margin: 15px 0 7px;
     letter-spacing: 1.5px;
 
+}
+
+.Pokemon:hover {
+    transform: scale(1.1);
 }
